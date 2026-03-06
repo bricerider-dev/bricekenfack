@@ -3,16 +3,16 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { Progress } from "@/components/ui/progress";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Code2, Server, Database, Wrench } from "lucide-react";
+import { Code2, Server, Database, Wrench, BrainCog } from "lucide-react";
 
 const skillCategories = [
   {
     title: "Frontend",
     icon: Code2,
     skills: [
-      { name: "React / Next.js", level: 90 },
+      { name: "React.js", level: 70 },
       { name: "TypeScript", level: 85 },
-      { name: "Tailwind CSS", level: 95 },
+      { name: "Tailwind CSS", level: 80 },
       { name: "HTML / CSS", level: 95 },
     ],
   },
@@ -21,8 +21,10 @@ const skillCategories = [
     icon: Server,
     skills: [
       { name: "Node.js / Express", level: 80 },
-      { name: "API REST / GraphQL", level: 85 },
+      { name: "API REST ", level: 65 },
       { name: "Python / Django", level: 70 },
+      { name: "Python/ Flask", level: 40},
+      { name: "Python/ FastAPI", level: 30}
     ],
   },
   {
@@ -30,7 +32,8 @@ const skillCategories = [
     icon: Database,
     skills: [
       { name: "PostgreSQL", level: 80 },
-      { name: "MongoDB", level: 75 },
+      { name: "MySQL", level: 75 },
+      { name: "MongoDB", level: 45},
       { name: "Redis", level: 65 },
     ],
   },
@@ -40,9 +43,18 @@ const skillCategories = [
     skills: [
       { name: "Git / GitHub", level: 90 },
       { name: "Docker", level: 70 },
-      { name: "CI/CD", level: 65 },
+      { name: "CI/CD", level: 48 },
     ],
   },
+  {
+    title: "Data Science",
+    icon: BrainCog,
+    skills:[
+      { name: "Pandas", level: "60"},
+      { name: "scikit-Learn", level: "45"},
+      { name: "matplotlib / seaborn/ streamlit", level: 70}
+    ]
+  }
 ];
 
 const Skills = () => {

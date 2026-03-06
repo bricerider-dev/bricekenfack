@@ -17,14 +17,15 @@ const projects = [
   {
     title: "NextCaregeneration",
     description: "Plateforme de gestion hospitaliere avec accent sur la gestion des feedbacks des patients et rappels, la gestion de la banque de sang et un systeme LLM pour les usagers ",
-    image: "",
+    image: "/src/assets/ncg.jpeg",
     tech: ["React", "Django", "PostgreSQL", "Docker", "Redis"],
 
   },
   {
     title: "Trademaster",
     description: "Plateforme de gestion interne (personnel et Stock) pour une boutique",
-    tech: ["PHP", "MySQL", "Tailwind"],
+    tech: ["PHP", "MySQL", "Tailwind", "HTML5"],
+    image : "/src/assets/trademaster.png"
   },
   {
     title: "Dashboard d'analyse de feedback",
@@ -35,25 +36,16 @@ const projects = [
   {
     title: "Evalia",
     description: "Plateforme de gestion academique",
-    tech : ["React", "django", "postgres", "Docker"],
-    image : "https://github.com/bricerider-dev/bricekenfack/blob/main/src/assets/evalia.jpeg"
+    tech : ["React", "django", "postgreSQL", "Docker"],
+    image : "/src/assets/evalia.jpeg",
+    github : "https://github.com/bricerider-dev/evalia"
   },
   {
-    title: "Task Management App",
-    description: "Application de gestion de tâches collaborative avec système de notifications",
-    tech: ["Next.js", "TypeScript", "Supabase", "Tailwind"],
-    image: "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
-  {
-    title: "Social Media Dashboard",
-    description: "Dashboard analytique pour réseaux sociaux avec graphiques et statistiques",
-    tech: ["React", "Chart.js", "Express", "MongoDB"],
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop",
-    github: "https://github.com",
-    demo: "https://example.com",
-  },
+    title: "Motolink-swift",
+    description:"plateforme de gestion de moto-taxi et taxi",
+    tech:["django","React", "postgreSQL", "Redis", "SMTP"],
+    image: "",
+  }
 ];
 
 const Projects = () => {

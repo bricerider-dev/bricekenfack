@@ -87,12 +87,12 @@ const Contact = () => {
                     <Phone className="text-primary" size={20} />
                   </div>
                   <div>
-                    <p className="font-medium">Téléphone</p>
+                    <p className="font-medium">Téléphone / WhatsApp </p>
                     <a
                       href="tel:+237671937341"
                       className="text-muted-foreground hover:text-primary transition-colors"
                     >
-                      +237 6 71 93 73 41
+                      +237 6 86 66 26 06
                     </a>
                   </div>
                 </div>
@@ -136,9 +136,9 @@ const Contact = () => {
 
               <div>
                 <Input
-                  type="email"
+                  type="text"
                   name="from_email"
-                  placeholder="Votre email"
+                  placeholder="Votre email ou numéro de téléphone"
                   required
                   className="bg-card border-border focus:border-primary"
                   aria-label="Email"
@@ -160,6 +160,7 @@ const Contact = () => {
                 <Textarea
                   name="message"
                   placeholder="Votre message"
+                  minLength={20}
                   required
                   rows={6}
                   className="bg-card border-border focus:border-primary resize-none"
