@@ -20,9 +20,9 @@ const skillCategories = [
     title: "Backend",
     icon: Server,
     skills: [
-      { name: "Node.js / Express", level: 80 },
+      { name: "Python / Django", level: 75 },
+      { name: "Node.js / Express", level: 65 },
       { name: "API REST ", level: 65 },
-      { name: "Python / Django", level: 70 },
       { name: "Python/ Flask", level: 40},
       { name: "Python/ FastAPI", level: 30}
     ],
