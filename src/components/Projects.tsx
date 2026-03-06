@@ -3,15 +3,40 @@ import { useInView } from "framer-motion";
 import { useRef } from "react";
 import { ExternalLink, Github } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { title } from "process";
 
 const projects = [
   {
     title: "E-Commerce Platform",
     description: "Plateforme e-commerce complète avec panier, paiement et gestion des commandes",
-    tech: ["React", "Node.js", "PostgreSQL", "Stripe"],
+    tech: ["React", "Node.js", "PostgreSQL"],
     image: "https://images.unsplash.com/photo-1557821552-17105176677c?w=800&h=600&fit=crop",
     github: "https://github.com",
     demo: "https://example.com",
+  },
+  {
+    title: "NextCaregeneration",
+    description: "Plateforme de gestion hospitaliere avec accent sur la gestion des feedbacks des patients et rappels, la gestion de la banque de sang et un systeme LLM pour les usagers ",
+    image: "",
+    tech: ["React", "Django", "PostgreSQL", "Docker", "Redis"],
+
+  },
+  {
+    title: "Trademaster",
+    description: "Plateforme de gestion interne (personnel et Stock) pour une boutique",
+    tech: ["PHP", "MySQL", "Tailwind"],
+  },
+  {
+    title: "Dashboard d'analyse de feedback",
+    description: "Le dashboard presente le sentiment general degage par les usagers",
+    tech:["Python", "Pandas", "streamlit"],
+
+  },
+  {
+    title: "Evalia",
+    description: "Plateforme de gestion academique",
+    tech : ["React", "django", "postgres", "Docker"],
+    image : "https://github.com/bricerider-dev/bricekenfack/blob/main/src/assets/evalia.jpeg"
   },
   {
     title: "Task Management App",
