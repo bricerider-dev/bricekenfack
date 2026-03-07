@@ -109,10 +109,13 @@ const Contact = () => {
               </div>
             </div>
 
-            <div className="pt-8">
+            <div className="pt-8 space-y-4">
               <p className="text-muted-foreground">
                 Je suis disponible pour des projets freelance et des opportunités de collaboration.
                 N'hésitez pas à me contacter pour discuter de votre projet !
+              </p>
+              <p>
+                <i> "Brevitas Ratio Constantia" </i>
               </p>
             </div>
           </motion.div>
